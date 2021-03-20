@@ -1,0 +1,101 @@
+.a{
+		background-color:#0000009c ;
+	}
+	.bg-color{
+		background-color: #02091094;
+	}
+	
+	.menu_box{
+	margin: 5px;
+	}
+	.menu_text a{
+        font-weight: 400;
+        font-size: 16px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+
+	}
+	h1{
+		padding-top: 20px;
+        text-transform: uppercase;
+        font-family: 'Abril Fatface', cursive;
+        letter-spacing: 1px;
+	}
+
+	p{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+	}
+	.content{
+		line-height: 35px;
+        /*letter-spacing: 1px;*/
+        word-spacing: 1px;
+	}
+	.button{
+		background-color: #fbac29;
+	}
+	.image{
+		
+		width:75% ;
+	}
+
+	.background{
+		background-image: url(http://www.firstfiddle.in/assets/images/bannerabout.jpg);
+		height:500px ;
+		padding:60px ;
+	}
+	.images{
+		width:270px;
+		height:150;
+	}
+	.background_2{
+		background-image: url(http://www.firstfiddle.in/assets/images/outletbanner.png);
+		height:500px ;
+		padding: 60px;
+	}
+	.footer{
+		background-color:#111215 ;
+	}
+	.fontawesome{
+		color:yellow ;
+		font-size:35px ;
+
+	}
+	.main_footer{
+        background-color: black;
+        padding: 10px;
+	}
+	.mobile_logo{
+		display: none;
+	}
+	@media(max-width: 724px){
+		.mobile_logo{
+			display: block;
+		}
+		.web_logo{
+			display: none;
+		}
+		.bg-color{
+			background:#fcae1b ;
+		}
+	}
+	.banner_1{
+        background-image: url(http://www.firstfiddle.in/assets/images/about-new.jpg);
+        background-repeat: no-repeat;
+        height: 600px;
+        width: 100%;
+        padding: 60px;
+
+	}
+	.background_about{
+		background-image: url(http://www.firstfiddle.in/assets/images/gamebanner.jpg);
+		background-repeat: no-repeat;
+		height: 600px;
+		padding: 70px;
+
+	}
+	.brands_banner{
+		background-image: url(http://www.firstfiddle.in/assets/images/brands.jpg);
+		background-repeat: no-repeat;
+		height: 600px;
+	}

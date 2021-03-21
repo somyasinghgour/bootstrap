@@ -1,3 +1,7 @@
+*{
+	margin: 0;
+	padding: 0;
+}
 .a{
 		background-color:#0000009c ;
 	}
@@ -83,7 +87,7 @@
         background-image: url(http://www.firstfiddle.in/assets/images/about-new.jpg);
         background-repeat: no-repeat;
         height: 600px;
-        width: 100%;
+        background-size: cover;
         padding: 60px;
 
 	}
@@ -98,4 +102,26 @@
 		background-image: url(http://www.firstfiddle.in/assets/images/brands.jpg);
 		background-repeat: no-repeat;
 		height: 600px;
+		background-size: cover;
+		padding: 60px;
+	}
+	.ourteam_banner{
+		background-image: url(http://www.firstfiddle.in/assets/images/franchise-with-us.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 60px;
+		height: 600px;
+	}
+	.pressrelease_banner{
+		background-image: url(http://www.firstfiddle.in/assets/images/banner-press-release.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 80px;
+		height: 600px;
+	}
+	.overflow{
+		overflow: auto;
+		width:400px ;
+		height:450px ;
+		
 	}
